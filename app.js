@@ -7,12 +7,11 @@ app.use(bodyParser.json());
 
 // MySql configuration
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'restaurant'
+  host: 'us-cdbr-east-06.cleardb.net',
+  user: 'bf72cf5f62dd62',
+  password: 'dec810de',
+  database: 'heroku_19a3df101aca6fb'
 });
-
 
 // Main route
 app.get('/', (req, res) => {
